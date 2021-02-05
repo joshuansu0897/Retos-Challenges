@@ -31,7 +31,5 @@ module.exports = function rank(st, we, n) {
     return b.winningNumber - a.winningNumber
   })
 
-  console.log(participants)
-
   return participants[n - 1].name
 }
